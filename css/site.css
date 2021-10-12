@@ -1,0 +1,45 @@
+#my-portrait {
+    width: 450px;
+    margin-left: 200px;
+}
+
+h1{
+  text-align: center;
+  font-size: 80px;
+  font-family: Papyrus, fantasy;
+  color: #D9D9F3;
+}
+
+p{
+  text-align: center;
+  font-size: 45px;
+  font-family: cursive;
+  color:  #E9C2A6;
+}
+
+ul{
+  position: absolute;
+  left: 800px;
+  top: 450px;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 24px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
+li{
+  margin-top: 20px;
+}
+#content{
+  background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcdn.uedna.com%2F201501%2F1420336657886.jpg&refer=http%3A%2F%2Fcdn.uedna.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1636617494&t=719ecb81273ca7847471dd817a4a4e58");
+  background-size: cover;
+}

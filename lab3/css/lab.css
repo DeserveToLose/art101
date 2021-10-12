@@ -1,0 +1,36 @@
+img#screenshots{
+  width:500px;
+
+}
+
+h1{
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 35px;
+  color: #70DB93
+}
+
+h2{
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 35px;
+  color: #70DB93
+}
+
+h3{
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 35px;
+  color: #70DB93
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#content{
+  background-color: #FAF9DE;
+  width: 700px;
+  margin: 10px;
+  border: solid 10px #FFF2E2;
+}
