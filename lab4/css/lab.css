@@ -1,0 +1,27 @@
+#content{
+  background-color: #D8D8BF;
+}
+
+h1{
+  text-align: left;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+h2{
+  text-align: left;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+h3{
+  text-align: left;
+  font-size: 40px;
+  font-family: monospace;
+}
+
+ul{
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
