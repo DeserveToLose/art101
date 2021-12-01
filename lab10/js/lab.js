@@ -11,20 +11,13 @@
 // Gets the value of your input field
 // Runs that value through your sort() or anagram() function and saves the results.
 // Replaces the html in <div id=output> with the results.
-  var buttonEl = document.getElementbyId("mybutton");
-  funtion changeName(){
-    
-  var userName = document.getElementbyId("input").value;
-  var nameArray = userName.split('');
-  var nameArraySort = nameArray.sort();
-  var nameSorted = nameArraySort.join('');
-  return nameSorted;
-  var headingEl = document.getElementbyId("heading");
-  headingEl.innerHTML = "Hey, " + nameSorted + "!";
-}
-
-  buttonEl.addEventlistner("click", changeName);
 
 
-var outputEl = document.getElementById("output");
-outputEl.appendChild(headingEl.innerHtml);
+  document.getElementById("mybutton").addEventListener("click", function(){
+    var userName = document.getElementById("userName").value;
+    var nameArray = userName.split('');
+    var nameArraySort = nameArray.sort();
+    var nameSorted = nameArraySort.join('');
+    var outputEl = document.getElementById("output");
+    outputEl.innerHTML = "Hey, " + nameSorted + "!";
+  });
